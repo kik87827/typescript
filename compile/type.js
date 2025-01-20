@@ -1,0 +1,10 @@
+var membertype = 123;
+membertype = 123;
+var members = [1, "2", 3];
+var memberobj = { a: "132" };
+var membertest;
+membertest = 123;
+membertest = [];
+var membername;
+membername = 123;
+membername = {};
