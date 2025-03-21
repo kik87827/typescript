@@ -1,18 +1,18 @@
-var 상품 = {
+let 상품 = {
     brand: "Samsung",
     serialNumber: 1360,
     model: ["TV", "phone"],
 };
-var 장바구니 = [
+let 장바구니 = [
     { product: "청소기", price: 7000 },
     { product: "삼다수", price: 800 },
     { product: "청소기", price: 7000, card: false }
 ];
-var testInterFunc = {
-    plus: function (num1, num2) {
+const testInterFunc = {
+    plus(num1, num2) {
         return num1 + num2;
     },
-    minus: function (num1, num2) {
+    minus(num1, num2) {
         return num1 - num2;
     },
 };

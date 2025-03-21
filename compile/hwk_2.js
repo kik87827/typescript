@@ -1,12 +1,12 @@
-var hw_user = "kim";
-var hw_age = undefined;
-var hw_married = false;
-var hw_철수 = [
+let hw_user = "kim";
+let hw_age = undefined;
+let hw_married = false;
+let hw_철수 = [
     hw_user,
     hw_age,
     hw_married,
 ];
-var kk학교 = {
+let kk학교 = {
     score: [100, 97, 84],
     teacher: "Phil",
     friend: "John",

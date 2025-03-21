@@ -1,11 +1,11 @@
-var myFunc2345 = function (a) {
+let myFunc2345 = function (a) {
     return 10;
 };
-var memberData = {
+let memberData = {
     name: 'kim',
-    plusOne: function (a) {
+    plusOne(a) {
         return a + 1;
     },
-    changeName: function () { }
+    changeName: () => { }
 };
-var mdplusOne = memberData.plusOne(5);
+let mdplusOne = memberData.plusOne(5);

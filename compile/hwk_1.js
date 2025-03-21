@@ -1,11 +1,11 @@
-var kikname = '김인경';
-var kikage = 123;
-var kikfrom = 'busan';
-var myfav = {
+const kikname = '김인경';
+const kikage = 123;
+const kikfrom = 'busan';
+const myfav = {
     favsong: "ASAP",
     favsinger: "뉴진스",
 };
-var projectkk = {
+let projectkk = {
     member: ["kim", "park"],
     days: 30,
     started: true,

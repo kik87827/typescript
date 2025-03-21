@@ -1,8 +1,8 @@
-var hw2user = "kim";
-var hw2age = undefined;
-var hw2married = false;
-var hew2철수 = [hw2user, hw2age, hw2married];
-var 학교 = {
+let hw2user = "kim";
+let hw2age = undefined;
+let hw2married = false;
+let hew2철수 = [hw2user, hw2age, hw2married];
+let 학교 = {
     score: [100, 97, 84],
     teacher: "Phil",
     friend: "John",

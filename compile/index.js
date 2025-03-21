@@ -1,10 +1,10 @@
-var indexName = "kim";
-var indexAge = 50;
-var indexMerry = false;
-var indexMerry2 = undefined;
-var indexMember = ["kim", "park"];
-var indexNumber = [5, 12];
-var indexMemberObj = {
+let indexName = "kim";
+let indexAge = 50;
+let indexMerry = false;
+let indexMerry2 = undefined;
+let indexMember = ["kim", "park"];
+let indexNumber = [5, 12];
+let indexMemberObj = {
     member1: "kim",
     member2: "park",
 };

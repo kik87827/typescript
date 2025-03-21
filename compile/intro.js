@@ -1,20 +1,20 @@
-var menname2 = "kim";
-menname2 = "kim2";
-var arrayobj = ["kim", "park"];
-var objData = { name: "kim" };
-var objData2 = {};
-var samName = "kim";
+let menname2 = "kim";
+menname2 = `kim2`;
+let arrayobj = ["kim", "park"];
+let objData = { name: "kim" };
+let objData2 = {};
+let samName = "kim";
 samName = 123;
-var testName = 1234;
+let testName = 1234;
 function MyFunc(x) {
     return x * 2;
 }
 MyFunc(1);
-var john = [123, true];
-var tom = { name: "kim", age: "123" };
-var User = (function () {
-    function User(name) {
+let john = [123, true];
+let tom = { name: "kim", age: "123" };
+class User {
+    name;
+    constructor(name) {
         this.name = name;
     }
-    return User;
-}());
+}

@@ -1,5 +1,5 @@
 function myFunc2(x) {
-    var array = [];
+    let array = [];
     array[0] = x;
     return array[0];
 }

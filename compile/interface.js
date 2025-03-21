@@ -1,3 +1,3 @@
-var nemo = { color: "red", width: 100 };
-var stu = { name: "kim" };
-var tea = { name: "kim", age: 20, };
+let nemo = { color: "red", width: 100 };
+let stu = { name: "kim" };
+let tea = { name: "kim", age: 20, };

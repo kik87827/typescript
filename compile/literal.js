@@ -1,6 +1,6 @@
-var testname;
+let testname;
 testname = "kim";
-var mydata;
+let mydata;
 mydata = "solo";
 function funcTest(a) {
     return 1;

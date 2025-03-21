@@ -1,10 +1,10 @@
-var membertype = 123;
+let membertype = 123;
 membertype = 123;
-var members = [1, "2", 3];
-var memberobj = { a: "132" };
-var membertest;
+let members = [1, "2", 3];
+let memberobj = { a: "132" };
+let membertest;
 membertest = 123;
 membertest = [];
-var membername;
+let membername;
 membername = 123;
 membername = {};

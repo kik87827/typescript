@@ -1,5 +1,5 @@
 function merryPos(month, home, att) {
-    var score = 0;
+    let score = 0;
     score += Math.floor(month / 10000);
     if (home) {
         score += 500;

@@ -1,7 +1,8 @@
-var Person2 = (function () {
-    function Person2(a) {
+class Person2 {
+    name;
+    age;
+    constructor(a) {
         this.name = a;
         this.age = 20;
     }
-    return Person2;
-}());
+}

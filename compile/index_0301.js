@@ -1,19 +1,19 @@
-var namek = 'kim';
-namek = "123";
-var namearryk = ['1', '2'];
-var nameobjk = { name: 'kim' };
-var namek2 = 123;
-var namek3 = 123;
+let namek = 'kim';
+namek = `123`;
+let namearryk = ['1', '2'];
+let nameobjk = { name: 'kim' };
+let namek2 = 123;
+let namek3 = 123;
 function myFunc(x) {
     return x * 2;
 }
 myFunc(123);
-var john2 = [123, true];
-var jjohn = { name: 'kim' };
-var jjohn2 = { name: 'kim', age: '123' };
-var User2 = (function () {
-    function User2(name) {
+let john2 = [123, true];
+let jjohn = { name: 'kim' };
+let jjohn2 = { name: 'kim', age: '123' };
+class User2 {
+    name;
+    constructor(name) {
         this.name = name;
     }
-    return User2;
-}());
+}

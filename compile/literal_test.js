@@ -1,4 +1,4 @@
-var kikIs;
+let kikIs;
 kikIs = 'publisher';
 function testFunc(a) {
     return 1;
@@ -8,7 +8,7 @@ function rps22(a) {
     return [a];
 }
 rps22('가위');
-var cvarobj = {};
+const cvarobj = {};
 var mydata1 = {
     name: 'kim'
 };

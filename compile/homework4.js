@@ -1,7 +1,7 @@
-var data = [1, 2, "3", "4", 5];
+const data = [1, 2, "3", "4", 5];
 function fileterData(para) {
-    var filterArray = [];
-    para.forEach(function (item) {
+    let filterArray = [];
+    para.forEach((item) => {
         if (typeof item === "string") {
             filterArray.push(parseFloat(item));
         }
@@ -12,9 +12,9 @@ function fileterData(para) {
     return filterArray;
 }
 console.log(fileterData(data));
-var objA = { subject: "math" };
-var objB = { subject: ["science", "english"] };
-var objC = { subject: ["science", "art", "korean"] };
+let objA = { subject: "math" };
+let objB = { subject: ["science", "english"] };
+let objC = { subject: ["science", "art", "korean"] };
 function filterObj(obj) {
     if (typeof obj.subject === "string") {
         return obj.subject;

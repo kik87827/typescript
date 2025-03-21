@@ -1,6 +1,6 @@
-var namekk = 'kim';
-var agekk = 50;
-var merrykkIs = true;
-var membersk = ['kim', 'park'];
-var membersk2 = { name: 'kkk', member2: 'park' };
-var membersk3 = 123;
+const namekk = 'kim';
+let agekk = 50;
+let merrykkIs = true;
+let membersk = ['kim', 'park'];
+let membersk2 = { name: 'kkk', member2: 'park' };
+let membersk3 = 123;

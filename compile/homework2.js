@@ -1,8 +1,8 @@
-var user = "kim";
-var userage = undefined;
-var married = false;
-var 철수 = [user, userage, married];
-var school = {
+let user = "kim";
+let userage = undefined;
+let married = false;
+let 철수 = [user, userage, married];
+let school = {
     score: [100, 97, 84],
     teacher: "Phil",
     friend: "John",

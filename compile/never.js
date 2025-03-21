@@ -10,6 +10,6 @@ function neverFunc01(para) {
         console.log(para);
     }
 }
-var neverFunc02 = function () {
+const neverFunc02 = function () {
     throw new Error();
 };

@@ -1,8 +1,8 @@
-var PersonType = (function () {
-    function PersonType(name) {
+class PersonType {
+    name;
+    constructor(name) {
         this.name = name;
     }
-    return PersonType;
-}());
-var childInstance = new PersonType('kim');
+}
+let childInstance = new PersonType('kim');
 console.log(childInstance);

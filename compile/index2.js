@@ -1,9 +1,9 @@
-var member = 123;
+let member = 123;
 member = "123";
-var memberGroup = [1, "2", 3];
-var memberObj = { a: "123" };
-var memberName = 123;
+let memberGroup = [1, "2", 3];
+let memberObj = { a: "123" };
+let memberName = 123;
 memberName = true;
-var memberName2 = 123;
+let memberName2 = 123;
 memberName2 = 123;
 memberName2 = [];
